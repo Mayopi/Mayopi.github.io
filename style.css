@@ -1,0 +1,67 @@
+body {
+  font-family: Sans-Serif;
+}
+
+
+.jumbotron {
+  background-color: #bbc4ce;
+  padding-top: 5rem;
+}
+
+.about-text, {
+  color: #222;
+}
+
+.about-container {
+  padding: 5px 10px;
+}
+
+.project-title {
+  background-color: #bbc4ce;
+}
+.footer {
+  color: #eaeaeaea;
+  width: 100%;
+  background: #23263c;
+}
+
+.card-text {
+  color: #222;
+}
+
+.social-title {
+  font-weight: 400;
+  color: #eaeaeaea;
+}
+
+.row-about {
+  opacity: 70%;
+}
+
+.instagram-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.row-description-sosial {
+  margin: 0px;
+  opacity: 70%;
+}
+
+.copyright {
+  opacity: 70%;
+  font-weight: 350;
+}
+
+.content-title {
+  color: #222;
+}
+
+.title-introduction {
+  color: #eaeaeaea;
+  background: #23263c;
+}
+
+.content-page {
+  padding-top: 5rem;
+}
