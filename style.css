@@ -8,7 +8,7 @@ body {
   padding-top: 5rem;
 }
 
-.about-text, {
+.about-text {
   color: #222;
 }
 
@@ -64,4 +64,27 @@ body {
 
 .content-page {
   padding-top: 5rem;
+}
+
+.card-carousel-container {
+  display: flex;
+  margin: 0px;
+  justify-content: space-evenly;
+}
+
+.card-carousel-container .col {
+  border: white solid 2px;
+  border-radius: 10px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.carousel-inner .carousel-item img{
+  border-radius: 10px;
+  border: white solid 3px;
+}
+
+.outer-carousel {
+  color: #eaeaeaea;
+  text-align: center;
 }
