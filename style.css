@@ -1,3 +1,9 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Sans-Serif;
 }
@@ -73,7 +79,7 @@ body {
 }
 
 .card-carousel-container .col {
-  border: white solid 2px;
+  border: beige solid 2px;
   border-radius: 10px;
   margin: 5px;
   margin-top: 20px;
@@ -81,10 +87,105 @@ body {
 
 .carousel-inner .carousel-item img{
   border-radius: 10px;
-  border: white solid 3px;
+  border: beige solid 3px;
 }
 
 .outer-carousel {
-  color: #eaeaeaea;
+  color: #222;
   text-align: center;
+  background: #eeebe3;
+  margin-top: 55px;
+}
+
+.card-container-fluid {
+  background-image: linear-gradient( rgb(255,255,255,0),rgba(34,34,34,1));
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button-card {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 50%;
+  height: 30%;
+  border-radius: 5px;
+  color: #eaeaeaea;
+  transition: 0.5s;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+.button-card:hover {
+  width: 60%;
+  border: solid 5px rgba(182,196,240,0.597);
+}
+
+.download-btn {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 50%;
+  height: 30%;
+  border-radius: 5px;
+  color: #eaeaeaea;
+  transition: 0.5s;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+.download-btn:hover {
+  width: 60%;
+  border: solid 5px rgba(182,196,240,0.597);
+}
+
+.API-link {
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.API-link:hover {
+  color: white;
+  font-size: 15px;
+  background: #39445e;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.paragraph-button {
+  cursor: pointer;
+  color: salmon;
+  background: transparent;
+  border: none;
+  transition: 0.3s;
+}
+
+.paragraph-button:hover {
+  background: #39445e;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.readmore-paragraph {
+  text-align: left;
 }
